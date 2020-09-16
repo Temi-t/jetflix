@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/jetflix/precache-manifest.a4b856307aa67eccb1a933367625612e.js"
+  "/jetflix/precache-manifest.d0e6ac874e74b9ee5ee13f8ed787523a.js"
 );
 
 self.addEventListener('message', (event) => {
