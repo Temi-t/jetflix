@@ -2,7 +2,7 @@
   "name": "jetflix",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://developers.themoviedb.org/3",
+  "proxy": "https://api.themoviedb.org/3",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -36,5 +36,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {}
 }
