@@ -20,9 +20,20 @@ function Banner (){
         };
         fetchData();
         }, []);
-        console.log(movie)
-        console.log(`url(${base_url}${movie?.backdrop_path})`)
 
+
+
+        console.log(movie);
+        console.log(`url(${base_url}${movie?.backdrop_path})`);
+
+        // function truncate(str, n){
+        //     return str?.length > n ? str.substr(0, n-1) + "..." : str ;
+        // }
+
+        function truncateOverview(str, n){
+            return str?.length > n ? str.substring(0, n) + " ..." : str;
+        }
+        
 
 
     return(
@@ -44,8 +55,9 @@ function Banner (){
                     <button className="banner_button">My list</button>
                 </div>
                 {/* description */}
-                <h1 className="banner_description"> {movie?.overview} </h1>
+                <h1 className="banner_description"> { truncateOverview(movie?.overview, 150) }</h1>
             </div>
+            <div className="banner_fadeBottom"></div>
 
         </header>
     )
