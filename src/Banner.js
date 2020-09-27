@@ -43,7 +43,7 @@ function Banner (){
             backgroundImage:`url(${base_url}${movie?.backdrop_path})`,
             // backgroundImage: `url( "https://image.tmdb.org/t/p/original/${movie?.backdrop_path}" )`,
             backgroundSize: 'cover',
-            backgroundPosition: 'center center'}}>
+            backgroundPosition: 'center center' }}>
 
 
             <h1 className="banner_title">
@@ -54,7 +54,6 @@ function Banner (){
                     <button className="banner_button">Play</button>
                     <button className="banner_button">My list</button>
                 </div>
-                {/* description */}
                 <h1 className="banner_description"> { truncateOverview(movie?.overview, 150) }</h1>
             </div>
             <div className="banner_fadeBottom"></div>
