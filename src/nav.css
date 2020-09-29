@@ -14,11 +14,12 @@
     background: #000;
 }
 .nav_logo{
- width: 8rem;
- /* height: 4rem; */
+ width: 10rem;
+ height: 4rem;
  object-fit: contain;
 }
 .nav_avatar{
     width: 1.9rem;
+    height: 3rem;
     object-fit: contain;
 }
