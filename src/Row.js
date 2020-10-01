@@ -12,10 +12,6 @@ function Row({ title, fetchUrl, isLargeRow }) {
     const [movies, setMovies] = useState([]);
     const [trailerUrl, setTrailerUrl] = useState("");
 
-    // useEffect(()=>{
-    //     ========
-    // });
-
 
     useEffect(()=>{
         async function fetchData(){
@@ -43,15 +39,16 @@ function Row({ title, fetchUrl, isLargeRow }) {
         if(trailerUrl) {
             setTrailerUrl('');
         } else{
-            movieTrailer( movie?.name || movie?.original_name || 'Sorry, Blame It On Me (Official Video)' || '' )
+            movieTrailer( movie?.name || movie?.original_name || movie?.title || movie?.original_title || " " )
             .then(url => {
-                // console.log(new URL(url).search)
+                // console.log("New URL: " + new URL(url).search)          ===>   New URL: ?v=ct5mQYE3Xk4
+    
                 const urlParams = new URLSearchParams(new URL(url).search);
                 setTrailerUrl(urlParams.get("v"));
             }).catch(error=> console.log(error))
         }
     }
-
+        
 
     return(
         <div className="row">
@@ -66,6 +63,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
                         alt={movie.name} 
                         onClick={()=> handleClick(movie)}
                      />
+                    //  ,console.log(`NAME:${movie?.name},   ORIGINAL NAME:${movie?.original_name},  TITLE:${movie?.title}, ORIGINAL_TITLE:${movie?.original_title}, 'nil'`)
                 ))}
             </div>
              {trailerUrl && <YouTube videoId={trailerUrl} opts={opts} />}
