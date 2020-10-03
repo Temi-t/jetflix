@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c8fbf4ff8019f6f55005da676a9a21d3",
+    "revision": "27f11ae09ab857ecc7acdeb236179a54",
     "url": "/jetflix/index.html"
   },
   {
-    "revision": "b8e19d37279ad6f8985b",
+    "revision": "09cf2b466aa70f10a1c2",
     "url": "/jetflix/static/css/main.dfe06741.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jetflix/static/js/2.6b89032d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b8e19d37279ad6f8985b",
-    "url": "/jetflix/static/js/main.6cb6f18d.chunk.js"
+    "revision": "09cf2b466aa70f10a1c2",
+    "url": "/jetflix/static/js/main.5af9a16c.chunk.js"
   },
   {
     "revision": "6a6e7b31d7a10a1427d9",

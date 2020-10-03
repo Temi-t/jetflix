@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/jetflix/static/css/main.dfe06741.chunk.css",
-    "main.js": "/jetflix/static/js/main.6cb6f18d.chunk.js",
-    "main.js.map": "/jetflix/static/js/main.6cb6f18d.chunk.js.map",
+    "main.js": "/jetflix/static/js/main.5af9a16c.chunk.js",
+    "main.js.map": "/jetflix/static/js/main.5af9a16c.chunk.js.map",
     "runtime-main.js": "/jetflix/static/js/runtime-main.6dba2a84.js",
     "runtime-main.js.map": "/jetflix/static/js/runtime-main.6dba2a84.js.map",
     "static/js/2.6b89032d.chunk.js": "/jetflix/static/js/2.6b89032d.chunk.js",
     "static/js/2.6b89032d.chunk.js.map": "/jetflix/static/js/2.6b89032d.chunk.js.map",
     "index.html": "/jetflix/index.html",
-    "precache-manifest.07098903ae98b84618f66bc83b719c33.js": "/jetflix/precache-manifest.07098903ae98b84618f66bc83b719c33.js",
+    "precache-manifest.98028fefbd7c84fcae829388b96e20ed.js": "/jetflix/precache-manifest.98028fefbd7c84fcae829388b96e20ed.js",
     "service-worker.js": "/jetflix/service-worker.js",
     "static/css/main.dfe06741.chunk.css.map": "/jetflix/static/css/main.dfe06741.chunk.css.map",
     "static/js/2.6b89032d.chunk.js.LICENSE.txt": "/jetflix/static/js/2.6b89032d.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.6dba2a84.js",
     "static/js/2.6b89032d.chunk.js",
     "static/css/main.dfe06741.chunk.css",
-    "static/js/main.6cb6f18d.chunk.js"
+    "static/js/main.5af9a16c.chunk.js"
   ]
 }
