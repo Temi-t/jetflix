@@ -1,4 +1,20 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Name: 
+JETFLIX (Just_a_nETFLIX-clone)
+
+📽📺🚀 App link🔖    [JETFLIX](https://temi-t.github.io/jetflix/).
+
+About: 
+A netflix-clone that consumes data from TMDb API to give a UI with dynamic images and thumbnails that link to searched trailers using MovieTrailer and React-YouTube.
+
+credits: - TMDB, cleverProgrammer
+
+
+
+
+
+
+
 
 ## Available Scripts
 
