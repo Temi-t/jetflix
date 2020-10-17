@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/jetflix/static/css/main.dfe06741.chunk.css",
-    "main.js": "/jetflix/static/js/main.5af9a16c.chunk.js",
-    "main.js.map": "/jetflix/static/js/main.5af9a16c.chunk.js.map",
+    "main.css": "/jetflix/static/css/main.158d9347.chunk.css",
+    "main.js": "/jetflix/static/js/main.444cb1ec.chunk.js",
+    "main.js.map": "/jetflix/static/js/main.444cb1ec.chunk.js.map",
     "runtime-main.js": "/jetflix/static/js/runtime-main.6dba2a84.js",
     "runtime-main.js.map": "/jetflix/static/js/runtime-main.6dba2a84.js.map",
     "static/js/2.6b89032d.chunk.js": "/jetflix/static/js/2.6b89032d.chunk.js",
     "static/js/2.6b89032d.chunk.js.map": "/jetflix/static/js/2.6b89032d.chunk.js.map",
     "index.html": "/jetflix/index.html",
-    "precache-manifest.98028fefbd7c84fcae829388b96e20ed.js": "/jetflix/precache-manifest.98028fefbd7c84fcae829388b96e20ed.js",
+    "precache-manifest.d6feeb4e33c324d42616c525353cf63d.js": "/jetflix/precache-manifest.d6feeb4e33c324d42616c525353cf63d.js",
     "service-worker.js": "/jetflix/service-worker.js",
-    "static/css/main.dfe06741.chunk.css.map": "/jetflix/static/css/main.dfe06741.chunk.css.map",
+    "static/css/main.158d9347.chunk.css.map": "/jetflix/static/css/main.158d9347.chunk.css.map",
     "static/js/2.6b89032d.chunk.js.LICENSE.txt": "/jetflix/static/js/2.6b89032d.chunk.js.LICENSE.txt",
     "static/media/netflix.png": "/jetflix/static/media/netflix.a1f673e7.png"
   },
   "entrypoints": [
     "static/js/runtime-main.6dba2a84.js",
     "static/js/2.6b89032d.chunk.js",
-    "static/css/main.dfe06741.chunk.css",
-    "static/js/main.5af9a16c.chunk.js"
+    "static/css/main.158d9347.chunk.css",
+    "static/js/main.444cb1ec.chunk.js"
   ]
 }
